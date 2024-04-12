@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnInternational = document.querySelector('.country');
     const btnAward = document.querySelector('.award');
 
+    
     async function fetchMovies() {
         const response = await fetch('./data.json');
         return await response.json();
@@ -10,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function populateGrid(filterFunction = () => true) {
         const movies = await fetchMovies();
-        gridContainer.innerHTML = ''; // Clear existing grid
+        gridContainer.innerHTML = ''; 
         movies.filter(filterFunction).forEach(movie => {
             const gridItem = document.createElement('div');
             gridItem.classList.add('grid-item');
@@ -28,12 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     btnInternational.addEventListener('click', () => {
-        populateGrid(movie => movie.international === "yes");
+        populateGrid(movie => movie.international == "yes");
     });
 
     btnAward.addEventListener('click', () => {
-        populateGrid(movie => movie.award === "yes");
+        populateGrid(movie => movie.award == "yes");
     });
 
-    populateGrid(); // Initial population of the grid
+    populateGrid(); 
+
+  
 });

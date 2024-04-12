@@ -72,6 +72,7 @@ button:hover {
     border-color: transparent;
     border-radius: 0%;
 }
+
 .grid-item {
     display: flex;
     flex-direction: column;
@@ -85,10 +86,20 @@ button:hover {
     height: auto;
     margin-bottom: 10px;
     transition: transform 0.3s ease;
+    box-shadow:  
+    0 0 0px rgba(0, 0, 0, 0.1),
+    0 0 0px rgba(0, 0, 0, 0.1),
+    0 0 0px rgba(0, 0, 0, 0.1),
+    0 0 0px rgba(0, 0, 0, 0.1);
 }
 
 .grid-item:hover img {
     transform: scale(1.1); 
+    box-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.757),
+        0 0 15px rgba(255, 255, 255, 0.526),
+        0 0 30px rgba(255, 255, 255, 0.369),
+        0 0 50px rgba(251, 151, 2, 0.1);
 }
 
 .home:hover{
