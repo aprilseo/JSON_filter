@@ -105,3 +105,45 @@ button:hover {
 .home:hover{
     background-color: transparent;
 }
+
+@media (max-width: 767px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filter-container,
+    .grid-container {
+      width: 100%;
+    }
+  
+    .filter-container {
+      padding: 2rem;
+      border-right: none;
+      overflow-y: scroll;
+      height:100%;
+    }
+  
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      gap: 20px;
+      padding: 2rem;
+    }
+    .button{
+        display:inline-block;
+    padding: 1rem 3rem;
+    margin:0.25rem;
+    font-size: 1rem; 
+    border: 1px solid black; 
+    color: black; 
+    cursor: pointer; 
+    align-items: center;
+    border-radius: 100px; 
+    background-color: white;
+    }
+
+    .grid-item.expanded {
+        transform: scale(1.1); 
+    }
+  }

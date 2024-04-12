@@ -36,6 +36,14 @@ document.addEventListener('DOMContentLoaded', () => {
         populateGrid(movie => movie.award == "yes");
     });
 
+    const gridItems = document.querySelectorAll('.grid-item');
+
+    gridItems.forEach(item => {
+        item.addEventListener('click', () => {
+            item.classList.toggle('expanded');
+        });
+    });
+
     populateGrid(); 
 
   
