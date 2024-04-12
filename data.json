@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Saltburn",
+        "international": "yes",
+        "image": "./assets/saltburn.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Anatomy of a Fall",
+        "international": "yes",
+        "image": "./assets/anatomy.jpg",
+        "award":"yes"
+    },
+    {
+        "name": "Glass Onion",
+        "international":"no",
+        "image": "./assets/glassonion.jpg",
+        "award":"yes"
+    },
+    {
+        "name": "Escape from Mogadishu",
+        "international":"yes",
+        "image": "./assets/mogadishu.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Hereditary",
+        "international": "no",
+        "image": "./assets/hereditary.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Midsommar",
+        "international": "no",
+        "image": "./assets/midsommar.jpg",
+        "award":"no"
+    },
+    {
+        "name": "The Roundup",
+        "international": "yes",
+        "image": "./assets/theroundup.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Deliver Us from Evil",
+        "international": "yes",
+        "image": "./assets/deliver.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Minari",
+        "international": "no",
+        "image": "./assets/minari.jpg",
+        "award":"yes"
+    },
+    {
+        "name": "Ponyo",
+        "international": "yes",
+        "image": "./assets/ponyo.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Extreme Job",
+        "international": "yes",
+        "image": "./assets/extremejob.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Don't Look Up",
+        "international": "no",
+        "image": "./assets/dontlookup.jpg",
+        "award":"yes"
+    },
+    {
+        "name": "What Happened to Monday",
+        "international": "yes",
+        "image": "./assets/monday.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Silver Linings Playbook",
+        "international": "no",
+        "image": "./assets/silver.jpg",
+        "award":"yes"
+    },
+    {
+        "name": "Eurovision",
+        "international": "no",
+        "image": "./assets/eurovision.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Okja",
+        "international": "no",
+        "image": "./assets/okja.jpg",
+        "award":"no"
+    },
+    {
+        "name": "Whiplash",
+        "international": "no",
+        "image": "./assets/whiplash.jpg",
+        "award":"yes"
+    },
+    {
+        "name": "La Sociedad de la Nieve",
+        "international": "yes",
+        "image": "./assets/snow.jpg",
+        "award":"yes"
+    },
+    {
+        "name": "The Imitation Game",
+        "international": "yes",
+        "image": "./assets/game.png",
+        "award":"yes"
+    },
+    {
+        "name": "The Florida Project",
+        "international": "no",
+        "image": "./assets/florida.jpg",
+        "award":"yes"
+    }
+]
